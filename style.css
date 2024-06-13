@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+nav>article{
+    height: 100%;
+    width: 85%;
+    /* background-color: brown; */
+    display: flex;
+}
+nav>article>.logo{
+    height: 100%;
+    width: 56%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+}
+nav>article>.logo>svg{
+    width: 20%;
+    fill: white;
+}
+nav>article>.menu{
+    height: 100%;
+    width: 44%;
+    /* background-color: chocolate; */
+}
+nav>article>.menu>ol{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+nav>article>.menu>ol>li>a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(235, 234, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+nav>article>.menu>ol>li>.same:hover{
+    color: rgb(17, 209, 17);
+}
+#home{
+    height: 92vh;
+    width: 100%;
+    background: url(./assets/bubbles-dktp.svg) 
+    center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#home>article{
+    height: 80%;
+    width: 75%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+#home>article>.phone{
+    height: 100%;
+    width: 28%;
+    /* background-color: chartreuse; */
+    border: 8px solid white;
+    border-bottom: none;
+    border-top-width: 55px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#home>article>.phone>img{
+    height:100%;
+    width: 100%;
+}
+#home>article>.text{
+    height: 100%;
+    width: 72%;
+    /* background-color: cornflowerblue; */
+    padding: 105px 0px 0px 80px;
+    
+}
+#home>article>.text>h1{
+    font-size: 58px;
+    color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+}
+#home>article>.text>button{
+    height: 48px;
+    width: 190px;
+    background-color: white ;
+    border: none;
+    border-radius: 25px;
+    font-size:15px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+/* navbar ended */
+
+#why{
+    height: 90vh;
+    width: 100%;
+    /* background-color: cyan; */
+}
+#why>.diff{
+    padding: 100px 0px 30px;
+}
+#why>.diff>h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#why>div{
+    display: flex;
+    justify-content: center;
+}
+#why>div>.box{
+    height: 300px;
+    width: 280px;
+    /* border: 1px solid black; */
+}
+#why>div>.box>img{
+    height: 142px;
+    width: 142px;
+    margin: 30px 0px 30px 50px;
+}
+#why>div>.box>p{
+margin-top: 10px;
+font-size: 16px;
+line-height: 20px;
+color: black;
+text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#why>div>.box>h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* #why>div>.box>h1,p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* why ended */
+
+#free{
+    height: 75vh;
+    width: 100%;
+    background:linear-gradient(rgb(194, 57, 228),rgb(97, 12, 201));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#free>p{
+    font-size: 47px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+/* free ended */
+
+#got{
+    height: 90vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+#got>.ques>p{
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 80px 0px 60px 0px;
+}
+#got>div>.same{
+    height: 80px;
+    width: 1150px;
+    border: 0px 0px 1px 0px;
+    box-shadow: 0px 1px 1px rgb(228, 227, 227);
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+#got>div>.same:hover{
+    background-color: rgb(241, 241, 241);
+    text-decoration: underline;
+}
+#got>div>.same>a{
+ text-decoration: none;
+ color: black;
+ font-size: 18px;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ padding-left: 30px;
+}
+/* got ended */
+
+#ready{
+    height: 65vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    background: url(./assets/bubbles-dktp.svg) 
+    center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    text-align: center;
+}
+#ready>h1{
+font-size: 80px;
+color: white;
+padding-top: 100px;
+padding-bottom: 50px;
+}
+#ready>button{
+    height: 50px;
+    width: 220px;
+    border-radius: 25px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+/* ready ended */
+
+#foot{
+    height: 87vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+#foot>article{
+    height: 75vh;
+    width: 85%;
+    /* background-color: cadetblue; */
+}
+#foot>article>.up{
+    height: 65%;
+    width: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+}
+#foot>article>.up>.sym{
+height: 100%;
+width: 12%;
+/* background-color:blue; */
+}
+#foot>article>.up>.sym>svg{
+    width: 100%;
+    fill: white;
+}
+#foot>article>.up>.lists{
+    height: 100%;
+    width: 60%;
+    /* background-color: blueviolet; */
+    display: flex;
+    padding-top: 20px;
+    color: white;
+}
+#foot>article>.up>.lists>span{
+    padding-left:80px;
+}
+#foot>article>.up>.lists>span>p{
+    padding-bottom: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#foot>article>.up>.lists>span>.col{
+    color: rgb(175, 172, 172);
+    font-size: 12px;
+}
+#foot>article>.up>.symbols{
+    height: 100%;
+    width: 27%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: end;
+}
+#foot>article>.up>.symbols>i{
+    padding:40px 40px 0px 0px;
+    color: white;
+}
+#foot>article>.down{
+    height: 35%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+#foot>article>.down>.dlist{
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 95px;
+}
+#foot>article>.down>.dlist>p{
+    color: rgb(143, 142, 142);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#foot>article>.down>.dfoot{
+    height: 100%;
+    width: 50%;
+    padding-top: 65px;
+}
+#foot>article>.down>.dfoot>p{
+    color: rgb(143, 142, 142);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: end;
+    padding-bottom: 25px;
+}
